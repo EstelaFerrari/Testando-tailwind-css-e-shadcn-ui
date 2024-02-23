@@ -1,0 +1,77 @@
+.buttonLinkExpansivel {
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .buttonLinkExpansivel:hover {
+    cursor: pointer;
+    background-color: red;
+  }
+  
+  .containerIconeTextoExpansivel {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .containerIconeTexto {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .containerIconeTextoExpansivelReduzido {
+    justify-content: center;
+  }
+  
+  .buttonLinkTexto {
+    font-family: var(--fontPrimary);
+    font-size: 15px;
+    color: lightgray;
+  }
+  
+  .iconExpandir {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .containerExpansivel {
+    background-color: var(--menuColorPrimaryLight);
+    overflow: hidden;
+  }
+  
+  .containerExpansivelAbrir {
+    visibility: hidden;
+    transition-property: visibility opacity height;
+    transition-duration: 100ms;
+    transition-timing-function: ease-out;
+    opacity: 0;
+    height: 0px;
+  }
+  
+  .containerExpansivelFechar {
+    visibility: visible;
+    transition-property: visibility opacity height;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+    opacity: 1;
+  }
+  
+  .linkIconeTexto {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 5px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .linkIconeTexto p:hover {
+    color: var(--white)
+  }
+  
+  .linkTexto {
+    font-family: var(--fontPrimary);
+    font-size: 14px;
+    color: lightgray;
+  }
+  

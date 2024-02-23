@@ -1,0 +1,244 @@
+.menuContainerPrincipal {
+    display: flex;
+    background-color: var(--menuColorPrimary);
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    transition-property: width;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+  }
+  
+  .menuReduzido {
+    width: 57px;
+  }
+  
+  .menuNaoReduzido {
+    width: 280px;
+  
+  }
+  
+  .containerProjetoLogo {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-top: 10px;
+  }
+  
+  .containerProjetoLogoReduzido {
+    justify-content: center;
+  }
+  
+  .containerTituloLogo {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    transition-property: visibility opacity;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    margin-left: 10px;
+  }
+  
+  .tituloPrimario {
+    color: var(--white);
+    font-family: var(--fontPrimary);
+    font-size: 14px;
+    min-width: 200px;
+  }
+  
+  .tituloSecundario {
+    color: var(--white);
+    font-family: var(--fontPrimary);
+    font-size: 14px;
+    min-width: 200px;
+  }
+  
+  .containerUsuarioLogado {
+    display: flex;
+    margin: 10px;
+    border-bottom: 1px solid var(--white);
+    padding-bottom: 10px;
+  }
+  
+  .containerUsuarioReduzido {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .containerUsuarioNaoReduzido {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .containerImageNome {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .usuarioNome {
+    font-family: var(--fontPrimary);
+    color: var(--white);
+    visibility: visible;
+    opacity: 1;
+    transition-property: visibility opacity;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    font-size: 14px;
+    min-width: 180px;
+  
+  }
+  
+  /* .usuarioNomeReduzido {
+    visibility: hidden;
+    opacity: 0;  
+  }
+  
+  .usuarioNomeNaoReduzido {
+    visibility: visible;
+    opacity: 1;  
+  } */
+  
+  .usuarioImage {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+  }
+  
+  .containerArrow {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-top: 1px solid var(--darkGray);
+  }
+  
+  .containerArrow:hover {
+    cursor: pointer;
+    background-color: var(--darkGray);
+  }
+  
+  .menuIconAbrirText {
+    font-family: var(--fontPrimary);
+    color: var(--white);
+    margin-left: 5px;
+    font-size: 14px;
+    min-width: 150px;
+    /* transition-property: visibility opacity;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out; */
+  }
+  /* 
+  .menuIconAbrirTextReduzido {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .menuIconAbrirTextNaoReduzido {
+    visibility: visible;
+    opacity: 1;
+  } */
+  
+  .menuIconAbrir {
+    width: 21px;
+    height: 21px;
+    transition-property: transform;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    margin-left: 20px;
+  }
+  
+  .menuIconAbrirReduzido {
+    transform: rotate(180deg);
+  }
+  
+  .menuIconAbrirNaoReduzido {
+    transform: rotate(0deg);
+  }
+  
+  .containerList {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 8px;
+  }
+  
+  .projetoLogo {
+    width: 50px;
+    height: 40px;
+  }
+  
+  .notificationIcon {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .buttonLink {
+    background-color: var(--menuColorPrimary);
+    padding: 10px;
+    transition: 200ms;
+  }
+  
+  .buttonLink:hover {
+    background-color: var(--menuColorPrimaryDark);
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .containerIconeTexto {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .containerIconeTextoReduzido {
+    justify-content: center;
+  }
+  
+  .containerIcone {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttonLinkTexto {
+    font-family: var(--fontPrimary);
+    font-size: 15px;
+    color: lightgray;
+    transition-property: visibility opacity;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+  }
+  
+  /* .buttonLinkTextoReduzido {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .buttonLinkTextoNaoReduzido {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .buttonNotificationReduzido {
+    opacity: 1;
+    display: flex;
+  }
+  
+  .buttonNotificationNaoReduzido {
+    opacity: 0;
+    display: none;
+  } */
+  
+
+  
